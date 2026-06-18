@@ -34,7 +34,7 @@ Automate the complete Git workflow: create feature branches, commit and push cha
 ## Workflow Steps
 
 1. Create new branch with kebab-case naming convention
-2. Commit staged changes with meaningful messages
+2. Commit staged changes with meaningful messages exclude changes from .github/agents directories
 3. Push branch to origin
 4. Create PR against the default branch (main/master)
 5. Return PR URL and details for verification
